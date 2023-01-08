@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "math-for-programmers"
+version = "0.1.0"
+description = "Exercises from book 'Math for Programmers'"
+authors = ["Cuauhtemoc Hernandez <cuauhtemoc.amdg@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "math_for_programmers"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+pandas = "^1.5.2"
+matplotlib = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
